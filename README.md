@@ -3,7 +3,7 @@
 Modèle statistique du scrutin uninominal majoritaire à deux tours de l'élection
 présidentielle française, inspiré par FiveThirtyEight (et d'autres).
 
-## Utiliser le modèle Python
+## Utiliser le modèle Python
 
 Le point d'entrée est la classe `ElectionModel` (dans `election.py`) qui
 modélise la probabilité totale de victoire.
