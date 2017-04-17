@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block head %}
+<title>Depuis 1958 — À propos</title>
+<script src="/email.js"></script>
+{% endblock %}
+
+{% block content %}
+<div class="year-nav-bar">
+<h1>À propos</h1>
+</div>
+
+<ul>
+    <li>Suivez-moi sur <a href="https://twitter.com/victorpoughon">Twitter</a>.</li>
+    <li>Envoyez-moi des mots doux <a href="#" id="email">par email</a>.</li>
+    <li>Un sondage qui manque&nbsp? Ajoutez-le <a href="https://github.com/depuis1958/sondages">sur GitHub</a>.</li>
+    <li>Code source&thinsp;:&nbsp;<em>bientôt disponible&thinsp;!</em></li>
+</ul>
+
+<p>
+Pour faire <em>Depuis 1958</em> je me suis humblement inspiré des modèles
+Américains comme le très célèbre <a
+href="https://projects.fivethirtyeight.com/2016-election-forecast/">FiveThirtyEight</a>,
+le
+<a href="http://elections.dailykos.com/app/elections/2016">DailyKos</a>,
+le <a href="https://www.nytimes.com/interactive/2016/upshot/presidential-polls-forecast.html?_r=0">nytimes</a>,
+et <a href="http://www.270towin.com/2016-simulation/">tant d'autres</a>. Merci à eux d'avoir fait tout le travail et publié leurs méthodologies avec autant de détails :)&thinsp;!</p>
+{% endblock %}
